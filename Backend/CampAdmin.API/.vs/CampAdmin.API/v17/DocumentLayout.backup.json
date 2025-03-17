@@ -1,0 +1,79 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "H:\\GitHub\\CampAdmin\\Backend\\CampAdmin.API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7B15BB29-6C6B-4F29-B817-99A977742E34}|CampAdmin.API\\CampAdmin.API.csproj|h:\\github\\campadmin\\backend\\campadmin.api\\campadmin.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B15BB29-6C6B-4F29-B817-99A977742E34}|CampAdmin.API\\CampAdmin.API.csproj|solutionrelative:campadmin.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B15BB29-6C6B-4F29-B817-99A977742E34}|CampAdmin.API\\CampAdmin.API.csproj|h:\\github\\campadmin\\backend\\campadmin.api\\campadmin.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{7B15BB29-6C6B-4F29-B817-99A977742E34}|CampAdmin.API\\CampAdmin.API.csproj|solutionrelative:campadmin.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B15BB29-6C6B-4F29-B817-99A977742E34}|CampAdmin.API\\CampAdmin.API.csproj|h:\\github\\campadmin\\backend\\campadmin.api\\campadmin.api\\campadmin.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7B15BB29-6C6B-4F29-B817-99A977742E34}|CampAdmin.API\\CampAdmin.API.csproj|solutionrelative:campadmin.api\\campadmin.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "H:\\GitHub\\CampAdmin\\Backend\\CampAdmin.API\\CampAdmin.API\\Dockerfile",
+              "RelativeDocumentMoniker": "CampAdmin.API\\Dockerfile",
+              "ToolTip": "H:\\GitHub\\CampAdmin\\Backend\\CampAdmin.API\\CampAdmin.API\\Dockerfile",
+              "RelativeToolTip": "CampAdmin.API\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-03-17T17:31:40.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CampAdmin.API.csproj",
+              "DocumentMoniker": "H:\\GitHub\\CampAdmin\\Backend\\CampAdmin.API\\CampAdmin.API\\CampAdmin.API.csproj",
+              "RelativeDocumentMoniker": "CampAdmin.API\\CampAdmin.API.csproj",
+              "ToolTip": "H:\\GitHub\\CampAdmin\\Backend\\CampAdmin.API\\CampAdmin.API\\CampAdmin.API.csproj",
+              "RelativeToolTip": "CampAdmin.API\\CampAdmin.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-17T17:19:14.987Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "H:\\GitHub\\CampAdmin\\Backend\\CampAdmin.API\\CampAdmin.API\\Program.cs",
+              "RelativeDocumentMoniker": "CampAdmin.API\\Program.cs",
+              "ToolTip": "H:\\GitHub\\CampAdmin\\Backend\\CampAdmin.API\\CampAdmin.API\\Program.cs",
+              "RelativeToolTip": "CampAdmin.API\\Program.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAowEEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T17:09:01.903Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
