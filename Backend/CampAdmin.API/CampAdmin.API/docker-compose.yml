@@ -1,0 +1,36 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres:13
+    container_name: postgres_db
+    environment:
+      POSTGRES_DB: campadmin
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: admin
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: campadmin_api
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ConnectionStrings__DefaultConnection: "Host=db;Database=campadmin;Username=your_user;Password=your_password"
+    ports:
+      - "5000:80"
+    depends_on:
+      - db
+    networks:
+      - campadmin_network
+
+volumes:
+  postgres_data:
+
+networks:
+  campadmin_network:
+    driver: bridge

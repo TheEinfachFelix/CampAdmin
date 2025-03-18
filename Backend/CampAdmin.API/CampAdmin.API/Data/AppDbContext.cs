@@ -10,5 +10,6 @@ namespace CampAdmin.API.Data
         public DbSet<User> Users { get; set; }
         public DbSet<Teilnehmer> Teilnehmer { get; set; }
         public DbSet<TaschengeldBuchung> TaschengeldBuchungen { get; set; }
+        public DbSet<ApiKey> ApiKeys { get; set; }
     }
 }

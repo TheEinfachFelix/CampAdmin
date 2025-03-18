@@ -1,3 +1,4 @@
+using CampAdmin.API.Controllers;
 using CampAdmin.API.Data;
 using CampAdmin.API.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -7,6 +8,9 @@ using Microsoft.OpenApi.Models;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddScoped<ApiKeyService>();
+builder.Services.AddScoped<AppDbContext>();
 
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));

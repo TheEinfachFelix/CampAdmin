@@ -15,11 +15,13 @@ namespace CampAdmin.API.Controllers
     {
         private readonly AppDbContext _context;
         private readonly JwtService _jwtService;
+        private readonly ApiKeyService _apiKeyService;
 
-        public AuthController(AppDbContext context, JwtService jwtService)
+        public AuthController(AppDbContext context, JwtService jwtService, ApiKeyService apiKeyService)
         {
             _context = context;
             _jwtService = jwtService;
+            _apiKeyService = apiKeyService;
         }
 
         [HttpPost("register")]
@@ -27,7 +29,6 @@ namespace CampAdmin.API.Controllers
         {
             user.PasswordHash = HashPassword(user.PasswordHash);
             _context.Users.Add(user);
-            await _context.SaveChangesAsync();
             return Ok("Registrierung erfolgreich");
         }
 
@@ -41,6 +42,26 @@ namespace CampAdmin.API.Controllers
             string token = _jwtService.GenerateToken(dbUser);
             return Ok(new { Token = token });
         }
+
+        [HttpPost("generate-api-key")]
+        public IActionResult GenerateApiKey([FromBody] ApiKeyRequest request)
+        {
+            var apiKey = _apiKeyService.GenerateApiKey(request.Name, request.Description, request.Permissions);
+            return Ok(new { apiKey.Key, apiKey.Permissions });
+        }
+
+        public class ApiKeyRequest
+        {
+            public string Name { get; set; }
+            public string Description { get; set; }
+            public List<string> Permissions { get; set; }
+        }
+
+        public string Key { get; set; } = Convert.ToBase64String(Guid.NewGuid().ToByteArray());
+        public List<string> Permissions { get; set; } = new List<string>();
+        public string Description { get; set; } = "";
+        public string Name { get; set; } = "";
+        public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
 
         private string HashPassword(string password)
         {
