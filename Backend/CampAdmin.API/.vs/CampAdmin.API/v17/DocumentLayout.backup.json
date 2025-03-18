@@ -3,28 +3,44 @@
   "WorkspaceRootPath": "H:\\GitHub\\CampAdmin\\Backend\\CampAdmin.API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7B15BB29-6C6B-4F29-B817-99A977742E34}|CampAdmin.API\\CampAdmin.API.csproj|h:\\github\\campadmin\\backend\\campadmin.api\\campadmin.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B15BB29-6C6B-4F29-B817-99A977742E34}|CampAdmin.API\\CampAdmin.API.csproj|solutionrelative:campadmin.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7B15BB29-6C6B-4F29-B817-99A977742E34}|CampAdmin.API\\CampAdmin.API.csproj|h:\\github\\campadmin\\backend\\campadmin.api\\campadmin.api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B15BB29-6C6B-4F29-B817-99A977742E34}|CampAdmin.API\\CampAdmin.API.csproj|solutionrelative:campadmin.api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B15BB29-6C6B-4F29-B817-99A977742E34}|CampAdmin.API\\CampAdmin.API.csproj|h:\\github\\campadmin\\backend\\campadmin.api\\campadmin.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B15BB29-6C6B-4F29-B817-99A977742E34}|CampAdmin.API\\CampAdmin.API.csproj|solutionrelative:campadmin.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7B15BB29-6C6B-4F29-B817-99A977742E34}|CampAdmin.API\\CampAdmin.API.csproj|h:\\github\\campadmin\\backend\\campadmin.api\\campadmin.api\\models\\apikey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B15BB29-6C6B-4F29-B817-99A977742E34}|CampAdmin.API\\CampAdmin.API.csproj|solutionrelative:campadmin.api\\models\\apikey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B15BB29-6C6B-4F29-B817-99A977742E34}|CampAdmin.API\\CampAdmin.API.csproj|h:\\github\\campadmin\\backend\\campadmin.api\\campadmin.api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B15BB29-6C6B-4F29-B817-99A977742E34}|CampAdmin.API\\CampAdmin.API.csproj|solutionrelative:campadmin.api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B15BB29-6C6B-4F29-B817-99A977742E34}|CampAdmin.API\\CampAdmin.API.csproj|h:\\github\\campadmin\\backend\\campadmin.api\\campadmin.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{7B15BB29-6C6B-4F29-B817-99A977742E34}|CampAdmin.API\\CampAdmin.API.csproj|solutionrelative:campadmin.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{7B15BB29-6C6B-4F29-B817-99A977742E34}|CampAdmin.API\\CampAdmin.API.csproj|h:\\github\\campadmin\\backend\\campadmin.api\\campadmin.api\\models\\teilnehmer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B15BB29-6C6B-4F29-B817-99A977742E34}|CampAdmin.API\\CampAdmin.API.csproj|solutionrelative:campadmin.api\\models\\teilnehmer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7B15BB29-6C6B-4F29-B817-99A977742E34}|CampAdmin.API\\CampAdmin.API.csproj|h:\\github\\campadmin\\backend\\campadmin.api\\campadmin.api\\controllers\\apikeyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7B15BB29-6C6B-4F29-B817-99A977742E34}|CampAdmin.API\\CampAdmin.API.csproj|solutionrelative:campadmin.api\\controllers\\apikeyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B15BB29-6C6B-4F29-B817-99A977742E34}|CampAdmin.API\\CampAdmin.API.csproj|h:\\github\\campadmin\\backend\\campadmin.api\\campadmin.api\\models\\apikey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B15BB29-6C6B-4F29-B817-99A977742E34}|CampAdmin.API\\CampAdmin.API.csproj|solutionrelative:campadmin.api\\models\\apikey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7B15BB29-6C6B-4F29-B817-99A977742E34}|CampAdmin.API\\CampAdmin.API.csproj|h:\\github\\campadmin\\backend\\campadmin.api\\campadmin.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7B15BB29-6C6B-4F29-B817-99A977742E34}|CampAdmin.API\\CampAdmin.API.csproj|solutionrelative:campadmin.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B15BB29-6C6B-4F29-B817-99A977742E34}|CampAdmin.API\\CampAdmin.API.csproj|h:\\github\\campadmin\\backend\\campadmin.api\\campadmin.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B15BB29-6C6B-4F29-B817-99A977742E34}|CampAdmin.API\\CampAdmin.API.csproj|solutionrelative:campadmin.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B15BB29-6C6B-4F29-B817-99A977742E34}|CampAdmin.API\\CampAdmin.API.csproj|h:\\github\\campadmin\\backend\\campadmin.api\\campadmin.api\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B15BB29-6C6B-4F29-B817-99A977742E34}|CampAdmin.API\\CampAdmin.API.csproj|solutionrelative:campadmin.api\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B15BB29-6C6B-4F29-B817-99A977742E34}|CampAdmin.API\\CampAdmin.API.csproj|h:\\github\\campadmin\\backend\\campadmin.api\\campadmin.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B15BB29-6C6B-4F29-B817-99A977742E34}|CampAdmin.API\\CampAdmin.API.csproj|solutionrelative:campadmin.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B15BB29-6C6B-4F29-B817-99A977742E34}|CampAdmin.API\\CampAdmin.API.csproj|h:\\github\\campadmin\\backend\\campadmin.api\\campadmin.api\\models\\taschengeldbuchung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B15BB29-6C6B-4F29-B817-99A977742E34}|CampAdmin.API\\CampAdmin.API.csproj|solutionrelative:campadmin.api\\models\\taschengeldbuchung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B15BB29-6C6B-4F29-B817-99A977742E34}|CampAdmin.API\\CampAdmin.API.csproj|h:\\github\\campadmin\\backend\\campadmin.api\\campadmin.api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B15BB29-6C6B-4F29-B817-99A977742E34}|CampAdmin.API\\CampAdmin.API.csproj|solutionrelative:campadmin.api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7B15BB29-6C6B-4F29-B817-99A977742E34}|CampAdmin.API\\CampAdmin.API.csproj|h:\\github\\campadmin\\backend\\campadmin.api\\campadmin.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
@@ -50,7 +66,59 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "JwtService.cs",
+              "DocumentMoniker": "H:\\GitHub\\CampAdmin\\Backend\\CampAdmin.API\\CampAdmin.API\\Services\\JwtService.cs",
+              "RelativeDocumentMoniker": "CampAdmin.API\\Services\\JwtService.cs",
+              "ToolTip": "H:\\GitHub\\CampAdmin\\Backend\\CampAdmin.API\\CampAdmin.API\\Services\\JwtService.cs",
+              "RelativeToolTip": "CampAdmin.API\\Services\\JwtService.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAwwCQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T20:44:27.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "User.cs",
+              "DocumentMoniker": "H:\\GitHub\\CampAdmin\\Backend\\CampAdmin.API\\CampAdmin.API\\Models\\User.cs",
+              "RelativeDocumentMoniker": "CampAdmin.API\\Models\\User.cs",
+              "ToolTip": "H:\\GitHub\\CampAdmin\\Backend\\CampAdmin.API\\CampAdmin.API\\Models\\User.cs",
+              "RelativeToolTip": "CampAdmin.API\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T20:26:37.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Teilnehmer.cs",
+              "DocumentMoniker": "H:\\GitHub\\CampAdmin\\Backend\\CampAdmin.API\\CampAdmin.API\\Models\\Teilnehmer.cs",
+              "RelativeDocumentMoniker": "CampAdmin.API\\Models\\Teilnehmer.cs",
+              "ToolTip": "H:\\GitHub\\CampAdmin\\Backend\\CampAdmin.API\\CampAdmin.API\\Models\\Teilnehmer.cs",
+              "RelativeToolTip": "CampAdmin.API\\Models\\Teilnehmer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T20:26:33.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TaschengeldBuchung.cs",
+              "DocumentMoniker": "H:\\GitHub\\CampAdmin\\Backend\\CampAdmin.API\\CampAdmin.API\\Models\\TaschengeldBuchung.cs",
+              "RelativeDocumentMoniker": "CampAdmin.API\\Models\\TaschengeldBuchung.cs",
+              "ToolTip": "H:\\GitHub\\CampAdmin\\Backend\\CampAdmin.API\\CampAdmin.API\\Models\\TaschengeldBuchung.cs",
+              "RelativeToolTip": "CampAdmin.API\\Models\\TaschengeldBuchung.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T20:26:28.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "H:\\GitHub\\CampAdmin\\Backend\\CampAdmin.API\\CampAdmin.API\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "CampAdmin.API\\Data\\AppDbContext.cs",
@@ -63,72 +131,72 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "H:\\GitHub\\CampAdmin\\Backend\\CampAdmin.API\\CampAdmin.API\\Program.cs",
               "RelativeDocumentMoniker": "CampAdmin.API\\Program.cs",
               "ToolTip": "H:\\GitHub\\CampAdmin\\Backend\\CampAdmin.API\\CampAdmin.API\\Program.cs",
               "RelativeToolTip": "CampAdmin.API\\Program.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAAAEUAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAwwBsAAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-17T17:09:01.903Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "AuthController.cs",
               "DocumentMoniker": "H:\\GitHub\\CampAdmin\\Backend\\CampAdmin.API\\CampAdmin.API\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "CampAdmin.API\\Controllers\\AuthController.cs",
               "ToolTip": "H:\\GitHub\\CampAdmin\\Backend\\CampAdmin.API\\CampAdmin.API\\Controllers\\AuthController.cs",
               "RelativeToolTip": "CampAdmin.API\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAowB8AAAASAAAAAAAAAA==",
+              "ViewState": "AgIAADkAAAAAAAAAAAAiwEgAAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-18T19:04:53.417Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "ApiKeyService.cs",
               "DocumentMoniker": "H:\\GitHub\\CampAdmin\\Backend\\CampAdmin.API\\CampAdmin.API\\Controllers\\ApiKeyService.cs",
               "RelativeDocumentMoniker": "CampAdmin.API\\Controllers\\ApiKeyService.cs",
               "ToolTip": "H:\\GitHub\\CampAdmin\\Backend\\CampAdmin.API\\CampAdmin.API\\Controllers\\ApiKeyService.cs",
               "RelativeToolTip": "CampAdmin.API\\Controllers\\ApiKeyService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBAAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-18T19:15:22.269Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "ApiKey.cs",
               "DocumentMoniker": "H:\\GitHub\\CampAdmin\\Backend\\CampAdmin.API\\CampAdmin.API\\Models\\ApiKey.cs",
               "RelativeDocumentMoniker": "CampAdmin.API\\Models\\ApiKey.cs",
               "ToolTip": "H:\\GitHub\\CampAdmin\\Backend\\CampAdmin.API\\CampAdmin.API\\Models\\ApiKey.cs",
               "RelativeToolTip": "CampAdmin.API\\Models\\ApiKey.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-18T19:14:03.591Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "appsettings.json",
               "DocumentMoniker": "H:\\GitHub\\CampAdmin\\Backend\\CampAdmin.API\\CampAdmin.API\\appsettings.json",
               "RelativeDocumentMoniker": "CampAdmin.API\\appsettings.json",
               "ToolTip": "H:\\GitHub\\CampAdmin\\Backend\\CampAdmin.API\\CampAdmin.API\\appsettings.json",
               "RelativeToolTip": "CampAdmin.API\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-03-17T17:40:26.757Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "Dockerfile",
               "DocumentMoniker": "H:\\GitHub\\CampAdmin\\Backend\\CampAdmin.API\\CampAdmin.API\\Dockerfile",
               "RelativeDocumentMoniker": "CampAdmin.API\\Dockerfile",
@@ -136,8 +204,7 @@
               "RelativeToolTip": "CampAdmin.API\\Dockerfile",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-03-17T17:31:40.118Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-17T17:31:40.118Z"
             }
           ]
         }

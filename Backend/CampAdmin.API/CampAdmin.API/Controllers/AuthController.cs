@@ -25,15 +25,26 @@ namespace CampAdmin.API.Controllers
         }
 
         [HttpPost("register")]
-        public async Task<IActionResult> Register([FromBody] User user)
+        public async Task<IActionResult> Register([FromBody] RegisterUser user)
         {
-            user.PasswordHash = HashPassword(user.PasswordHash);
-            _context.Users.Add(user);
+            _context.Users.Add(new User
+            {
+                Username = user.Username,
+                PasswordHash = HashPassword(user.PasswordHash),
+                Role = user.Role
+            });
+            _context.SaveChanges();
             return Ok("Registrierung erfolgreich");
+        }
+        public class RegisterUser
+        {
+            public string Username { get; set; } = string.Empty;
+            public string PasswordHash { get; set; } = string.Empty;
+            public string Role { get; set; } = "";
         }
 
         [HttpPost("login")]
-        public async Task<IActionResult> Login([FromBody] User user)
+        public async Task<IActionResult> Login([FromBody] LoginUser user)
         {
             var dbUser = await _context.Users.FirstOrDefaultAsync(u => u.Username == user.Username);
             if (dbUser == null || dbUser.PasswordHash != HashPassword(user.PasswordHash))
@@ -41,6 +52,11 @@ namespace CampAdmin.API.Controllers
 
             string token = _jwtService.GenerateToken(dbUser);
             return Ok(new { Token = token });
+        }
+        public class  LoginUser
+        {
+            public string Username { get; set; } = string.Empty;
+            public string PasswordHash { get; set; } = string.Empty;
         }
 
         [HttpPost("generate-api-key")]
@@ -52,16 +68,10 @@ namespace CampAdmin.API.Controllers
 
         public class ApiKeyRequest
         {
-            public string Name { get; set; }
-            public string Description { get; set; }
-            public List<string> Permissions { get; set; }
+            public string Name { get; set; } = string.Empty;
+            public string Description { get; set; } = string.Empty;
+            public List<string> Permissions { get; set; } = new List<string>();
         }
-
-        public string Key { get; set; } = Convert.ToBase64String(Guid.NewGuid().ToByteArray());
-        public List<string> Permissions { get; set; } = new List<string>();
-        public string Description { get; set; } = "";
-        public string Name { get; set; } = "";
-        public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
 
         private string HashPassword(string password)
         {
