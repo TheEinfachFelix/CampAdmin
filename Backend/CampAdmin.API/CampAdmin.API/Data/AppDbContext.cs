@@ -10,16 +10,12 @@ namespace CampAdmin.API.Data
         public DbSet<User> Users { get; set; }
         public DbSet<Teilnehmer> Teilnehmer { get; set; }
         public DbSet<TaschengeldBuchung> TaschengeldBuchungen { get; set; }
-        public DbSet<ApiKey> ApiKeys { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
 
             modelBuilder.Entity<User>()
-                .Property(e => e.CreatedAt)
-                .HasDefaultValueSql("CURRENT_TIMESTAMP");
-            modelBuilder.Entity<ApiKey>()
                 .Property(e => e.CreatedAt)
                 .HasDefaultValueSql("CURRENT_TIMESTAMP");
             modelBuilder.Entity<TaschengeldBuchung>()
