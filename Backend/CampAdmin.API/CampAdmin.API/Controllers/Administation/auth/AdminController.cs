@@ -35,7 +35,7 @@ namespace CampAdmin.API.Controllers.auth
             var dbUser = await GetUserAsync(id);
             if (dbUser == null) return NotFound("User not found");
 
-            dbUser.Username = user.Username;
+            dbUser.UserName = user.Username;
             dbUser.PasswordHash = AuthController.HashPassword(user.PasswordHash);
             dbUser.Description = user.Description;
             dbUser.Roles = user.Roles;
@@ -46,9 +46,9 @@ namespace CampAdmin.API.Controllers.auth
         [HttpPost("user")]
         public async Task<IActionResult> Register([FromBody] RegisterUser user)
         {
-            var newUser = new User
+            var newUser = new ApiUser
             {
-                Username = user.Username,
+                UserName = user.Username,
                 PasswordHash = AuthController.HashPassword(user.PasswordHash),
                 Description = user.Description,
                 Roles = user.Roles,
@@ -77,7 +77,7 @@ namespace CampAdmin.API.Controllers.auth
             public string Description { get; set; } = "";
         }
 
-        private async Task<User?> GetUserAsync(int id)
+        private async Task<ApiUser?> GetUserAsync(int id)
         {
             return await _context.Users.FirstOrDefaultAsync(u => u.Id == id);
         }

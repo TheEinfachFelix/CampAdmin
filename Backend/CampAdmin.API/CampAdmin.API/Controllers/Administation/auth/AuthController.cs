@@ -26,7 +26,7 @@ namespace CampAdmin.API.Controllers
         [HttpPost("login")]
         public async Task<IActionResult> Login([FromBody] LoginUser user)
         {
-            var dbUser = await _context.Users.FirstOrDefaultAsync(u => u.Username == user.Username);
+            var dbUser = await _context.Users.FirstOrDefaultAsync(u => u.UserName == user.Username);
             if (dbUser == null || dbUser.PasswordHash != HashPassword(user.PasswordHash))
                 return Unauthorized("Falsche Anmeldedaten");
 

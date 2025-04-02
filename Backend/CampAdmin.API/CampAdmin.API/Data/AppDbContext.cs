@@ -7,7 +7,7 @@ namespace CampAdmin.API.Data
     {
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
 
-        public DbSet<User> Users { get; set; }
+        public DbSet<ApiUser> Users { get; set; }
         public DbSet<Teilnehmer> Teilnehmer { get; set; }
         public DbSet<TaschengeldBuchung> TaschengeldBuchungen { get; set; }
 
@@ -15,7 +15,7 @@ namespace CampAdmin.API.Data
         {
             base.OnModelCreating(modelBuilder);
 
-            modelBuilder.Entity<User>()
+            modelBuilder.Entity<ApiUser>()
                 .Property(e => e.CreatedAt)
                 .HasDefaultValueSql("CURRENT_TIMESTAMP");
             modelBuilder.Entity<TaschengeldBuchung>()

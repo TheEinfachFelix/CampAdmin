@@ -7,6 +7,14 @@
       "RelativeMoniker": "D:0:0:{7B15BB29-6C6B-4F29-B817-99A977742E34}|CampAdmin.API\\CampAdmin.API.csproj|solutionrelative:campadmin.api\\controllers\\administation\\auth\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{7B15BB29-6C6B-4F29-B817-99A977742E34}|CampAdmin.API\\CampAdmin.API.csproj|h:\\github\\campadmin\\backend\\campadmin.api\\campadmin.api\\controllers\\administation\\auth\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B15BB29-6C6B-4F29-B817-99A977742E34}|CampAdmin.API\\CampAdmin.API.csproj|solutionrelative:campadmin.api\\controllers\\administation\\auth\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B15BB29-6C6B-4F29-B817-99A977742E34}|CampAdmin.API\\CampAdmin.API.csproj|h:\\github\\campadmin\\backend\\campadmin.api\\campadmin.api\\controllers\\administation\\setupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B15BB29-6C6B-4F29-B817-99A977742E34}|CampAdmin.API\\CampAdmin.API.csproj|solutionrelative:campadmin.api\\controllers\\administation\\setupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7B15BB29-6C6B-4F29-B817-99A977742E34}|CampAdmin.API\\CampAdmin.API.csproj|h:\\github\\campadmin\\backend\\campadmin.api\\campadmin.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{7B15BB29-6C6B-4F29-B817-99A977742E34}|CampAdmin.API\\CampAdmin.API.csproj|solutionrelative:campadmin.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -25,10 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{7B15BB29-6C6B-4F29-B817-99A977742E34}|CampAdmin.API\\CampAdmin.API.csproj|h:\\github\\campadmin\\backend\\campadmin.api\\campadmin.api\\extensions\\servicecollectionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7B15BB29-6C6B-4F29-B817-99A977742E34}|CampAdmin.API\\CampAdmin.API.csproj|solutionrelative:campadmin.api\\extensions\\servicecollectionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B15BB29-6C6B-4F29-B817-99A977742E34}|CampAdmin.API\\CampAdmin.API.csproj|h:\\github\\campadmin\\backend\\campadmin.api\\campadmin.api\\controllers\\administation\\setupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B15BB29-6C6B-4F29-B817-99A977742E34}|CampAdmin.API\\CampAdmin.API.csproj|solutionrelative:campadmin.api\\controllers\\administation\\setupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,20 +54,33 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "H:\\GitHub\\CampAdmin\\Backend\\CampAdmin.API\\CampAdmin.API\\Controllers\\Administation\\auth\\AuthController.cs",
+              "RelativeDocumentMoniker": "CampAdmin.API\\Controllers\\Administation\\auth\\AuthController.cs",
+              "ToolTip": "H:\\GitHub\\CampAdmin\\Backend\\CampAdmin.API\\CampAdmin.API\\Controllers\\Administation\\auth\\AuthController.cs",
+              "RelativeToolTip": "CampAdmin.API\\Controllers\\Administation\\auth\\AuthController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAgwCwAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T14:18:44.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "AdminController.cs",
               "DocumentMoniker": "H:\\GitHub\\CampAdmin\\Backend\\CampAdmin.API\\CampAdmin.API\\Controllers\\Administation\\auth\\AdminController.cs",
               "RelativeDocumentMoniker": "CampAdmin.API\\Controllers\\Administation\\auth\\AdminController.cs",
               "ToolTip": "H:\\GitHub\\CampAdmin\\Backend\\CampAdmin.API\\CampAdmin.API\\Controllers\\Administation\\auth\\AdminController.cs*",
               "RelativeToolTip": "CampAdmin.API\\Controllers\\Administation\\auth\\AdminController.cs*",
-              "ViewState": "AgIAABsAAAAAAAAAAAAowDcAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAgwCgAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-20T14:15:03.375Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "CampAdmin.API.http",
               "DocumentMoniker": "H:\\GitHub\\CampAdmin\\Backend\\CampAdmin.API\\CampAdmin.API\\CampAdmin.API.http",
               "RelativeDocumentMoniker": "CampAdmin.API\\CampAdmin.API.http",
@@ -76,7 +93,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "docker-compose.yml",
               "DocumentMoniker": "H:\\GitHub\\CampAdmin\\Backend\\CampAdmin.API\\CampAdmin.API\\docker-compose.yml",
               "RelativeDocumentMoniker": "CampAdmin.API\\docker-compose.yml",
@@ -89,7 +106,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "ServiceCollectionExtension.cs",
               "DocumentMoniker": "H:\\GitHub\\CampAdmin\\Backend\\CampAdmin.API\\CampAdmin.API\\Extensions\\ServiceCollectionExtension.cs",
               "RelativeDocumentMoniker": "CampAdmin.API\\Extensions\\ServiceCollectionExtension.cs",
@@ -102,7 +119,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
               "DocumentMoniker": "H:\\GitHub\\CampAdmin\\Backend\\CampAdmin.API\\CampAdmin.API\\appsettings.json",
               "RelativeDocumentMoniker": "CampAdmin.API\\appsettings.json",
@@ -115,20 +132,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "SetupController.cs",
               "DocumentMoniker": "H:\\GitHub\\CampAdmin\\Backend\\CampAdmin.API\\CampAdmin.API\\Controllers\\Administation\\SetupController.cs",
               "RelativeDocumentMoniker": "CampAdmin.API\\Controllers\\Administation\\SetupController.cs",
               "ToolTip": "H:\\GitHub\\CampAdmin\\Backend\\CampAdmin.API\\CampAdmin.API\\Controllers\\Administation\\SetupController.cs",
               "RelativeToolTip": "CampAdmin.API\\Controllers\\Administation\\SetupController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwDMAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwCsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-19T21:03:24.43Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "H:\\GitHub\\CampAdmin\\Backend\\CampAdmin.API\\CampAdmin.API\\Program.cs",
               "RelativeDocumentMoniker": "CampAdmin.API\\Program.cs",

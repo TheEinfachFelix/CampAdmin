@@ -28,9 +28,9 @@
                 return BadRequest("Admin-Benutzer existiert bereits!");
             }
 
-            var adminUser = new User
+            var adminUser = new ApiUser
             {
-                Username = "admin",
+                UserName = "admin",
                 PasswordHash = AuthController.HashPassword("Admin"),
                 Roles = new List<string> { Roles.Admin },
                 Description = "Admin-Benutzer"

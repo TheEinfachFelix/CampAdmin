@@ -15,12 +15,12 @@ namespace CampAdmin.API.Services
             _config = config;
         }
 
-        public string GenerateToken(User user)
+        public string GenerateToken(ApiUser user)
         {
             // Claims
             var claims = new List<Claim>
             {
-                new (JwtRegisteredClaimNames.Name, user.Username),
+                new (JwtRegisteredClaimNames.Name, user.UserName),
                 new (JwtRegisteredClaimNames.Sub, user.Id.ToString()),
             };
             foreach (var role in user.Roles)
