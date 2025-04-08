@@ -11,3 +11,11 @@ A modulare platform for administrating a Camp
 
 Das ist super für die verwaltung
 https://www.nocodb.com/
+
+Verwendung der Excel:
+- Unterschriftenliste
+- Statistik
+- Taschengeld
+- Abrechnung
+- Abmeldekartei
+- T-Shirt Bestellung
