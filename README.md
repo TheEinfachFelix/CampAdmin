@@ -19,3 +19,9 @@ Verwendung der Excel:
 - Abrechnung
 - Abmeldekartei
 - T-Shirt Bestellung
+
+
+ein paar taps die ich offen hatte:
+https://hub.docker.com/_/postgres
+https://nocodb.com/docs/self-hosting/upgrading
+https://nocodb.com/docs/self-hosting/environment-variables
